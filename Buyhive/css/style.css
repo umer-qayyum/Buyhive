@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+}
+.c-row .c-col .card .btn{
+    display: none;
+}
+.c-row .c-col .card:hover .btn{
+    display: block;
+} */
+.fb{
+    color: white;background-color: blue;padding:10px;border-radius: 100%;margin-right: 5px;
+}
+.insta{
+    color: white;background-color:#E95950;padding:10px;border-radius: 100%;margin-right: 5px;
+}
+
+.lin{
+    color: white;background-color: #007BB5;padding:10px;border-radius: 100%;margin-right: 5px;
+}
+.c-row .c-col .card{
+    border: none;
+    transition: all 0.3s ease-in-out;
+}
+.c-row .c-col .card:hover{
+    border: 1px solid grey;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
